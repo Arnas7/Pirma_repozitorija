@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paskaitos kodas</title>
+    <link rel="stylesheet" href="stiliai.css">
+    <style>
+        .text-center{
+            text-align: center;
+        }
+        .text-left{
+            text-align: left;
+        }
+        .text-right{
+            text-align: right;
+        }
+        .text-justify{
+            text-align: justify;
+        }
+        .border{
+            border: 1px solid black;
+        }
+        .bg-green{
+            background-color: greenyellow;
+        }
+        .box-padding{
+            /* padding-right: 20px;
+            padding-left: 20px;
+            padding-bottom: 20px;
+            padding-top: 20px; */
+            /* padding: 20px is visu pusiu vienodai */
+            /* padding: 10px 20px 30px 40px pagal laikrodzio rodykle nuo 12*/
+            /* padding: 20px 40px; */
+            padding: 40px;
+            padding-top: 10px;
+        }
+        .box-margin{
+            margin-bottom: 70px;
+        }
+        nav{
+            margin-bottom: 30px;
+            background-color: rgb(119, 235, 235);
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            /* flex direction keicia justify content ir align-items vietomis */
+            /* gap veikia tik kai yra ijungtas flex */
+            gap: 20px;
+            /* Horizontalus vaiku pozicionavimas */
+            /* start, center, end, space-around, space-between */
+            justify-content: space-around;
+
+            /* vertikalus vaiku pozicionavimas */
+            /* veik tik elementui turint auksti */
+            height: 300px;
+            align-items: space-between;
+            border: 3px dotted black;
+            border-top: 0;
+            border-right: 0;
+            font-family: 'Times New Roman', Times, serif;
+            /* times new roman, aeriel, corier */
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="">Namai</a>
+        <a href="">Apie mus</a>
+        <a href="">Galerija</a>
+        <a href="">Rekvizitai</a>
+    </nav>
+
+    <div class="border bg-green box-padding box-margin">
+        <p class="text-center">Lorem ipsum dolor</p>
+        <p class="text-left">Lorem ipsum dolor</p>
+        <p class="text-right">Lorem ipsum dolor</p>
+        <p class="text-justify">Lorem ipsum dolor</p>    
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ID neglai kartotis -->
+    <table id="ipatinga-lentele" class="bg-blue text-white">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Vardas</th>
+                <th>Pavardė</th>
+                <th>Amžius</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Almantas</td>
+                <td>Alma</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Almantas</td>
+                <td>Alma</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Almantas</td>
+                <td>Alma</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Almantas</td>
+                <td>Alma</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Almantas</td>
+                <td>Alma</td>
+                <td>27</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

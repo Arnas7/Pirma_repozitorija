@@ -1,0 +1,31 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+/* table > tbody > tr{
+    background-color: aqua;
+} */
+/* Šis selektorius prisitaiko visiem elementams - * */
+
+/* *{
+    background-color: rgb(205, 205, 205);
+    /* color: white; */
+ */
+/* turime overwritint */
+.bg-blue, .bg-blue tr, .bg-blue td, .bg-blue th{
+    background-color: blue;
+}
+.text-white{
+    color: white;
+}
+#ipatinga-lentele th{
+    background-color: rgb(91, 122, 122);
+}
+/* NTH-child yr pseudo-selektorius kuris pasirenka kazkelinta elementa */
+#ipatinga-lentele tr>td:nth-child(4){
+    background-color: bisque;
+}
+/* odd arba even */
+#ipatinga-lentele tr:nth-child(odd)>td:nth-child(odd){
+    background-color: bisque;
+}

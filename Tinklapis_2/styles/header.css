@@ -1,0 +1,11 @@
+/* Headeriu stiliai */
+header{
+    .nav-container{
+        border-bottom: 2px solid black;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+}

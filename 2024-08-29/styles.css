@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    background-color: rgb(34,34,34);
+}
+.container{
+    /* Turinys issicentruotu */
+    margin: 0 auto; 
+    /* turinio maksimalus plotis */
+    max-width: 900px;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+nav a{
+    color: white;
+}

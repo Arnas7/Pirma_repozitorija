@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span.red{
+            color:red;
+        }
+        /* Document styles */
+        .geltonas-fonas{
+            background-color: yellow;
+        }
+    </style>
+    <!-- External style -->
+     <link rel="stylesheet" href="stiliai.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- nav gali turėti naudą search engine optimization (SEO) -->
+        </nav>
+    </header>
+    <!-- H1 - H6 antraštės -->
+    <h1>Pavadinimui antraštė</h1>
+    <!-- p - paragrafas(turi atitraukimą iš viršaus bei apačios, bei prasideda iš naujos eilutės) -->
+     <p><span class ="red">Lorem</span>Lorem <i>ipsum</i> <b>dolor</b></p>
+     <p>Lorem ipsum</p>
+     <!-- div blokinis elementas neturintis stilius -->
+     <div title = "Čia mano komentara apie šitą eilutę">
+        Lorem
+     </div>
+     <div>
+        <!-- sup - mažas tekstas viršuje, sub - mažas tekstas apačioje -->
+        Lorem
+     </div>
+     <!-- img - sukuria nuotrauką -->
+      <!-- src nuroda į nuotrauką -->
+       <!-- alternatyvus tekstas -->
+     <img src="rozines-spalvos-rozes-heaven-532x652.jpg" 
+     alt="čia turėtų būti gėlės"
+     width="200">
+     <!-- Sąrašai ol ul -->
+      <!-- ol - numeruotas sąrašas -->
+       <!-- li - list item -->
+    <ol>
+        <li>Pienas</li>
+        <li>Varškė</li>
+        <li>Ledai</li>
+    </ol>
+    <!-- ul nesunumerutoas sąrašas -->
+     <ul>
+        <li>Pienas</li>
+        <li>Varškė</li>
+        <li>Ledai</li>        
+     </ul>
+     <!-- Lentelė -->
+      <h2>Semntiškai netvarkinga lentelė</h2>
+      <!-- table - lentelės apibrėžimas -->
+       <!-- semantiškai netvarkinga lentelė tik su td(ir th) -->
+       <table>
+        <!-- tr - lentelės eilutė -->
+        <tr>
+            <!-- td - lentelės duomenys -->
+             <!-- th - lentelės antraštė -->
+             <th>duomuo1</th>
+             <th>duomuo2</th>
+             <th>duomuo3</th>
+        </tr>
+        <tr>
+            <td>duomuo1</td>
+            <td>duomuo2</td>
+            <td>duomuo3</td>
+        </tr>
+        <tr>
+            <td colspan="2">duomuo1__duomuo2</td>
+            <td>duomuo2</td>
+        </tr>
+        <tr>
+            <td colspan="3">Lorem ipsum dolor sit amet</td>
+        </tr>
+        <tr>
+            <td rowspan="2">duomuo 1</td>
+            <td>duomuo2</td>
+            <td>duomuo3</td>
+        </tr>
+        <tr>
+            <td>duomuo1</td>
+        </tr>
+       </table>
+       <!-- inline stiliai -->
+       <h2 style="color: blue; height: 100px">Semantiškai tvarkinga lentelė</h2>
+       <table class="geltonas-fonas" style="border: 1px solid black">
+        <thead>
+            <tr>
+                <th>Stulpelis 1</th>
+                <th>Stulpelis 2</th>
+                <th>Stulpelis 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>data1</td>
+                <td>data2</td>
+                <td>data3</td>
+            </tr>
+        </tbody>
+       </table>
+</body>
+</html>

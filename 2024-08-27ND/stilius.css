@@ -1,0 +1,17 @@
+table{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+}
+table th, td{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    text-align: center;
+}
+/*._19{
+    background-color: yellow;
+}*/
+/* table, th, td { border-collapse: collapse } */

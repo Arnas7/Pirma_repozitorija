@@ -1,0 +1,52 @@
+footer{
+    position: relative;
+    padding: 200px 0 50px;
+    
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .sub-newsletter{
+        padding: 48px;
+        display: flex;
+        flex-wrap: wrap;
+
+        background-image: url(../assets/images/cta-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: #343a40 !important;
+
+        color: white;
+        h3{
+            color: white;
+        }
+    }
+    .logo-information{
+        display: flex;
+        flex-direction: column;
+        img{
+            margin-bottom: 24px;
+        }
+        p{
+            margin-top: 0;
+        }
+    }
+    .information{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        background-image: url(../assets/images/footer-light-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .information-columns{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
